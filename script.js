@@ -15,10 +15,10 @@ document.getElementById('submit-button').addEventListener('click', async functio
   const response = await fetch('https://api.openai.com/v1/engines/davinci-codex/completions', {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json',
-      'Authorization': 'Bearer ' + 'Authorization': 'Bearer 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',
- // 替换为您的API密钥
-    },
+  'Content-Type': 'application/json',
+  'Authorization': 'Bearer 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',
+},
+
     body: JSON.stringify(data),
   });
 
