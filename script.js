@@ -16,7 +16,8 @@ document.getElementById('submit-button').addEventListener('click', async functio
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer ' + 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, // 替换为您的API密钥
+      'Authorization': 'Bearer ' + 'Authorization': 'Bearer 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',
+ // 替换为您的API密钥
     },
     body: JSON.stringify(data),
   });
